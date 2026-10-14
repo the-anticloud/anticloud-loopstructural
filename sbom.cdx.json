@@ -1,0 +1,165 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:7789953d-09c6-5e01-a6f7-2a7fda30d873",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-07T08:48:42Z",
+    "component": {
+      "type": "application",
+      "name": "LOOPSTRUCTURAL",
+      "version": "7d3f1702aaa7",
+      "bom-ref": "pkg:generic/anticloud/LOOPSTRUCTURAL@7d3f1702aaa7",
+      "purl": "pkg:generic/anticloud/LOOPSTRUCTURAL@7d3f1702aaa7",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "7d3f1702aaa7d6c7b601cf3e33565cd80aeec062"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/the-anticloud/anticloud-loopstructural.git"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "loop-common",
+      "version": ">=0.0.1",
+      "purl": "pkg:pypi/loop-common@0.0.1",
+      "bom-ref": "pypi/loop-common@>=0.0.1"
+    },
+    {
+      "type": "library",
+      "name": "loop-interpolation",
+      "version": ">=0.0.1",
+      "purl": "pkg:pypi/loop-interpolation@0.0.1",
+      "bom-ref": "pypi/loop-interpolation@>=0.0.1"
+    },
+    {
+      "type": "library",
+      "name": "numpy",
+      "version": ">=1.18",
+      "purl": "pkg:pypi/numpy@1.18",
+      "bom-ref": "pypi/numpy@>=1.18"
+    },
+    {
+      "type": "library",
+      "name": "pandas",
+      "version": "unspecified",
+      "purl": "pkg:pypi/pandas",
+      "bom-ref": "pypi/pandas@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "scipy",
+      "version": "unspecified",
+      "purl": "pkg:pypi/scipy",
+      "bom-ref": "pypi/scipy@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "scikit-image",
+      "version": "unspecified",
+      "purl": "pkg:pypi/scikit-image",
+      "bom-ref": "pypi/scikit-image@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "scikit-learn",
+      "version": "unspecified",
+      "purl": "pkg:pypi/scikit-learn",
+      "bom-ref": "pypi/scikit-learn@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "geopandas",
+      "version": "unspecified",
+      "purl": "pkg:pypi/geopandas",
+      "bom-ref": "pypi/geopandas@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "shapely",
+      "version": ">=2",
+      "purl": "pkg:pypi/shapely@2",
+      "bom-ref": "pypi/shapely@>=2"
+    },
+    {
+      "type": "library",
+      "name": "networkx",
+      "version": "unspecified",
+      "purl": "pkg:pypi/networkx",
+      "bom-ref": "pypi/networkx@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "owslib",
+      "version": "unspecified",
+      "purl": "pkg:pypi/owslib",
+      "bom-ref": "pypi/owslib@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "loopprojectfile",
+      "version": "==0.2.2",
+      "purl": "pkg:pypi/loopprojectfile@0.2.2",
+      "bom-ref": "pypi/loopprojectfile@==0.2.2"
+    },
+    {
+      "type": "library",
+      "name": "beartype",
+      "version": "unspecified",
+      "purl": "pkg:pypi/beartype",
+      "bom-ref": "pypi/beartype@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "packaging",
+      "version": "unspecified",
+      "purl": "pkg:pypi/packaging",
+      "bom-ref": "pypi/packaging@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "pydantic",
+      "version": "unspecified",
+      "purl": "pkg:pypi/pydantic",
+      "bom-ref": "pypi/pydantic@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "pyvista",
+      "version": "unspecified",
+      "purl": "pkg:pypi/pyvista",
+      "bom-ref": "pypi/pyvista@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "pyyaml",
+      "version": "unspecified",
+      "purl": "pkg:pypi/pyyaml",
+      "bom-ref": "pypi/pyyaml@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "LoopStructural",
+      "version": ">=1.6.17",
+      "purl": "pkg:pypi/loopstructural@1.6.17",
+      "bom-ref": "pypi/LoopStructural@>=1.6.17"
+    }
+  ]
+}
